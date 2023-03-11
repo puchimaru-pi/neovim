@@ -12,3 +12,6 @@ keymap("i", "<C-h>", "<Left>", opts)
 keymap("i", "<C-j>", "<Down>", opts)
 keymap("i", "<C-k>", "<Up>", opts)
 keymap("i", "<C-l>", "<Right>", opts)
+
+keymap('n', 'j', 'gj', { noremap = true })
+keymap('n', 'k', 'gk', { noremap = true })
